@@ -1,0 +1,32 @@
+{
+  "name": "balancenetworknftmarketplace",
+  "version": "1.0.0",
+  "description": "BalanceNetwork NFT MarketPlace Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "oz compile",
+    "deploy": "oz deploy",
+    "push": "oz push",
+    "create": "oz create",
+    "update": "oz update",
+    "send-tx": "oz send-tx",
+    "migrate-testnet": "truffle migrate --network testnet",
+    "migrate-mainnet": "truffle migrate --network mainnet",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+    
+  },
+  "keywords": [
+    "BalanceNetwork",
+    "NFT",
+    "MarketPlace",
+    "NFTMarketPlace",
+    "BinanceSmartChain"
+  ],
+  "author": "@cooller458",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  }
+}
